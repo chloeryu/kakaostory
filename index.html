@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="chloeryu">
+  <title>카카오스토리</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" href="images/kokaostoryicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+
+<body>
+  <div id="wrap">
+    <header>
+      <h1 class="long"><a herf="index.html">kakao<span style="font-weight: bold;">story</span></a></h1>
+    </header>
+    <container class="main-container">
+      <div class="inner_container">
+        <div class="banner">
+          <a href="event.html">
+            <p class="now">지금<span>이순간</span><br>
+              카카오스토리</p>
+          </a>
+        </div>
+        <form id="form" name="form" action="#" method="post">
+          <fieldset>
+            <p>
+              <input type="text" size="60" maxlength="12" name="id" required placeholder="카카오메일 아이디,이메일, 전화번호"
+                autofocus>
+            </p>
+            <p>
+              <input type="password" size="60" maxlength="12" name="password" required placeholder="비밀번호">
+            </p>
+            <div class="checkbox">
+              <input type="checkbox" name="check2" id="check2" value="2" class="checkbox2">
+              <label for="check2">
+                <p class="keep_state">로그인상태유지</p>
+              </label>
+            </div>
+            <p class="login">
+              <a href="#"><input type="submit" value="로그인"></a>
+            </p>
+            <p class="line_or">또는</p>
+            <button type="button"><img src="images/qr.png" alt="">QR코드 로그인</button>
+          </fieldset>
+        </form>
+        <div class="use">
+          <a href="#" class="join">회원가입</a>
+          <ul class="nav">
+            <li><a href="#">카카오계정</a><span>&#124;</span></li>
+            <li><a href="#">비밀번호 찾기</a></li>
+          </ul>
+        </div>
+        <!-- //inner_container -->
+      </div>
+    </container>
+    <!-- //container -->
+    <footer>
+      <div class="inner_footer">
+        <ul class="notice">
+          <li><a href="#">이용약관</a></li>
+          <li><a href="#">개인정보처리방침</a></li>
+          <li><a href="#">운영정책</a></li>
+          <li><a href="#">고객센터</a></li>
+          <li><a href="#">공지사항</a></li>
+          <li>
+            <form>
+              <select>
+                <option>한국어</option>
+                <option>English</option>
+                <option>日本語</option>
+              </select>
+            </form>
+          </li>
+        </ul>
+        <!-- //notice -->
+        <p class="address">Copyright © Kakao Corp. All rights reserved.</p>
+      </div>
+      <!-- //inner_footer -->
+    </footer>
+  </div>
+  </div>
+  <!-- //wrap -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="script/jquery.backstretch.min.js"></script>
+  <script>
+    $(function () {
+      $.backstretch(["images/coffee.jpg", "images/flower.jpg", "images/palmtree.jpg", "images/child.jpg"], { duration: 3500, fade: 750 });
+    });
+  </script>
+</body>
+
+</html>

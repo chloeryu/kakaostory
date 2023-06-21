@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="chloeryu">
+  <title>카카오스토리</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="shortcut icon" href="images/kokaostoryicon.png">
+</head>
+<style>
+  div {
+    text-align: center;
+  }
+</style>
+
+<body>
+  <header>
+    <h1 class="long"><a herf="#">kakao<span style="font-weight: bold;">story</span></a></h1>
+  </header>
+  <div>
+    <a href="landing_page.html"><img src="images/event_page.jpg" alt=""></a>
+  </div>
+  <!-- //wrap -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="script/jquery.backstretch.min.js"></script>
+  <script>
+    $(function () {
+      $.backstretch(["images/coffee.jpg", "images/flower.jpg", "images/palmtree.jpg", "images/child.jpg"], { duration: 3500, fade: 750 });
+    });
+  </script>
+</body>
+
+</html>
